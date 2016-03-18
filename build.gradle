@@ -30,7 +30,7 @@ repositories {
 // Apply versioning to all projects from versioning script.
 	apply plugin: 'java'
 	apply plugin: 'jacoco'
-	apply from: "$rootDir/gradle/versioning.gradle"
+	apply from: "$projectDir/gradle/versioning.gradle"
 	apply plugin: 'eclipse'
 	apply plugin: 'spring-boot'
 	apply plugin: "io.spring.dependency-management"
